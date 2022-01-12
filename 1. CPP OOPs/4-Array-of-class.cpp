@@ -26,8 +26,8 @@ class student
 public:
     str name;
     unsigned int enrollmentNumber;
-    unsigned int height;
-    unsigned int weight;
+    float height;
+    float weight;
 
     void set_details(unsigned int rn, str student_name, unsigned int en, float ht, float wt)
     {
